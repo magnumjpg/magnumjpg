@@ -6,10 +6,10 @@ Quantitative Analysis | Applied Econometrics | Business Operations & Financial M
 
 ### Executive Profile
 
-Analista cuantitativo enfocado en modelado empírico, operaciones de negocio y arquitecturas analíticas de datos. Mi trabajo combina análisis econométrico riguroso (datos de panel, efectos fijos, simulaciones Monte Carlo) con ingeniería de datos orientada a la toma de decisiones empresariales (DuckDB, modelado dimensional, Python).
+Quantitative analyst focused on empirical modeling, business operations, and analytical data architectures. My work combines applied econometric methods (panel data, fixed effects, Monte Carlo simulations) with practical data engineering designed for corporate decision-making (DuckDB, dimensional modeling, Python).
 
-- **Áreas de interés**: Econometría urbana, pricing y optimización de márgenes, gestión de capital circulante (Working Capital / CCC), modelado de riesgo financiero.
-- **Enfoque técnico**: Diseños reproducibles, simulación de escenarios contrafactuales y pipelines de datos de alto rendimiento.
+- **Focus Areas**: Urban economics and housing supply, pricing and margin optimization, working capital and cash conversion cycle (CCC) analytics, financial risk modeling.
+- **Approach**: Reproducible research designs, counterfactual policy simulation, and high-throughput data pipelines.
 
 ---
 
@@ -28,33 +28,33 @@ Analista cuantitativo enfocado en modelado empírico, operaciones de negocio y a
 
 #### 1. [Spanish Urban Zoning Burden Analysis](https://github.com/magnumjpg/spanish-urban-zoning-burden-analysis)
 **Domain**: Urban Econometrics, Public Choice & Housing Supply Regulation
-- Estudio econométrico de panel ($N=780$, horizonte de 15 años, 50 municipios españoles) que evalúa el impacto causal de la discrecionalidad urbanística municipal sobre la inelasticidad de la oferta y los precios residenciales.
-- Estima una elasticidad de oferta estructural de $\epsilon_s = 0.31$ en municipios restrictivos frente al $1.32$ en entornos elásticos, cuantificando una pérdida de bienestar (Harberger Deadweight Loss) del 14.8% del valor transaccionado, calibrado con datos oficiales del Banco de España de 2026 (déficit de 750.000 viviendas).
-- **Stack**: Python, `statsmodels`, Two-Way Fixed Effects, simulación Monte Carlo (10.000 iteraciones), visualización institucional.
+- Panel econometric study ($N=780$, 15-year horizon, 50 representative Spanish municipalities) evaluating the causal impact of municipal land-use discretion on housing supply inelasticity and home price inflation.
+- Estimates a structural housing supply elasticity of $\epsilon_s = 0.31$ in restrictive regulatory regimes versus $1.32$ in elastic benchmarks, and quantifies welfare deadweight loss (Harberger DWL) at 14.8% of aggregate transaction value. Calibrated against official 2026 Bank of Spain data (750,000 structural housing unit deficit).
+- **Stack**: Python, `statsmodels`, Two-Way Fixed Effects, Monte Carlo simulation (10,000 runs), institutional visualization.
 
 #### 2. [B2B Working Capital & CCC Control Tower](https://github.com/magnumjpg/b2b-working-capital-ccc-control-tower)
 **Domain**: Corporate Finance, Treasury Analytics & Supply Chain Risk
-- Torre de control analítica para monitorizar y optimizar el Ciclo de Conversión de Efectivo (CCC), Días de Cobro (DSO) e inventarios a partir de datos operacionales.
-- Implementa cálculo de DSO por agotamiento (*Countback*), modelos de Machine Learning (Random Forest) para scoring de impago crediticio con AUC de 0.92, y matrices estocásticas ABC-XYZ para dimensionamiento de stock de seguridad.
-- **Stack**: DuckDB, Python, Scikit-Learn, modelado dimensional Star-Schema, CI/CD con validación de lógica financiera.
+- Automated analytical control tower to monitor and optimize Cash Conversion Cycle (CCC), Days Sales Outstanding (DSO), and inventory buffers across operational ERP data.
+- Implements Countback (Exhaustion) DSO for unskewed liquidity tracking, Random Forest credit default risk scoring achieving 0.92 ROC-AUC, and dual-stochastic 9-cell ABC-XYZ inventory buffer sizing.
+- **Stack**: DuckDB, Python, Scikit-Learn, Star-Schema dimensional modeling, automated CI/CD pipeline verifying financial logic.
 
 #### 3. [B2B Revenue Operations & Margin Architecture](https://github.com/magnumjpg/b2b-revenue-operations-analytics)
 **Domain**: Strategic Pricing, Commercial Operations & EBITDA Enhancement
-- Marco cuantitativo de diagnóstico de fugas de margen y realización de precios en transacciones comerciales complejas B2B.
-- Desarrolla el desglose analítico en cascada (*pocket margin waterfall*), curvas de Stobachoff para identificar clientes destructores de margen y reglas de gobernanza comercial con un impacto potencial de +791 bps en margen EBITDA.
-- **Stack**: Python, modelado financiero de cascada de precios, análisis de Pareto, automatización de reporting.
+- Quantitative framework diagnosing price realization and margin leakage across complex B2B commercial transaction histories.
+- Features pocket margin waterfall decomposition, Stobachoff whale curve analysis to isolate margin-eroding accounts, and CPQ governance guardrails modeled to deliver a +791 bps lift in EBITDA margin.
+- **Stack**: Python, Financial Waterfall Modeling, Pareto Analytics, Automated Reporting.
 
 ---
 
 ### Personal Projects & Side Ventures
 
-#### AIchatsplug (Plataforma Conversacional de IA para Pymes)
-Desarrollé AIchatsplug como una solución para que pequeños negocios y operadores sin conocimientos de programación pudieran crear asistentes conversacionales inteligentes y desplegarlos directamente en sus canales de Facebook Messenger e Instagram Direct. El sistema se integraba de forma bidireccional con la API de Google Calendar para gestionar citas de clientes, comprobar huecos libres y registrar reservas de manera autónoma.
+#### AIchatsplug (Conversational AI Platform for SMBs)
+I built AIchatsplug as a self-service tool enabling non-technical business operators to configure and deploy customer support chatbots directly onto their Facebook Messenger and Instagram Direct channels. The core workflow included deep two-way integration with the Google Calendar API to automatically check real-time availability and book appointments without human intervention.
 
-Llevar el proyecto a producción exigió superar las revisiones oficiales de permisos sensibles de Meta (proceso completo de App Review para Messenger e Instagram Graph APIs, preparando grabaciones en vídeo, flujos de prueba y cumplimiento de políticas de privacidad) y la verificación de OAuth de Google para el acceso a calendarios. El frontend continúa desplegado y activo en [aichatsplug.com](https://aichatsplug.com). Tras validar técnicamente la plataforma y realizar campañas iniciales de adquisición en Google Ads y Meta Ads, pausé el gasto en paid media para enfocarme al 100% en la parte técnica y analítica de datos.
+Getting the product to live production required passing rigorous third-party app verification audits: Meta's formal App Review for sensitive Messenger and Instagram Graph API scopes (submitting video walkthroughs, test accounts, and privacy policy compliance) as well as Google's OAuth verification for calendar read/write access. The web interface remains live at [aichatsplug.com](https://aichatsplug.com). After validating product functionality and running initial paid acquisition campaigns on Google Ads and Meta Ads, I paused paid advertising spend to concentrate full-time on quantitative data engineering and analytical modeling.
 
-#### Motor de Automatización de Comisiones Comerciales
-Proyecto enfocado en resolver el cálculo mensual de liquidaciones en esquemas de incentivos comerciales con múltiples tramos, objetivos escalonados y excepciones operativas. El sistema reemplaza hojas de cálculo manuales por un backend estructurado (FastAPI / Pandas) que valida los registros de ventas, audita incidencias y calcula las liquidaciones de forma transparente.
+#### Automated Sales Commission & Tier Calculation Engine
+A custom backend pipeline designed to solve monthly compensation reconciliation across complex sales structures featuring multi-tiered target thresholds, accelerators, and operational exceptions. The project replaced error-prone manual spreadsheets with an auditable backend engine (FastAPI / Pandas) that verifies transaction logs, generates dispute trails, and computes net payout breakdowns with total transparency.
 
 ---
 
