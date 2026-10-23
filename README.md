@@ -4,16 +4,15 @@ Quantitative Analysis | Applied Econometrics | Business Operations & Financial M
 
 ---
 
-### Executive Profile
+### Portfolio Overview
 
-Quantitative analyst focused on empirical modeling, business operations, and analytical data architectures. My work combines applied econometric methods (panel data, fixed effects, Monte Carlo simulations) with practical data engineering designed for corporate decision-making (DuckDB, dimensional modeling, Python).
+This GitHub workspace compiles end-to-end quantitative research, financial operations frameworks, and analytical engineering systems. The repositories hosted here focus on translating real-world operational bottlenecks, regulatory friction, and corporate finance dynamics into reproducible data pipelines, econometric estimations, and executive decision models.
 
-- **Focus Areas**: Urban economics and housing supply, pricing and margin optimization, working capital and cash conversion cycle (CCC) analytics, financial risk modeling.
-- **Approach**: Reproducible research designs, counterfactual policy simulation, and high-throughput data pipelines.
+Each project is designed with modular architectures, strict separation of concerns, and comprehensive documentation covering empirical methodologies, financial logic, and technical implementations.
 
 ---
 
-### Core Competencies
+### Core Competencies & Frameworks
 
 | Domain | Methodologies & Frameworks | Tools & Technologies |
 | :--- | :--- | :--- |
@@ -24,25 +23,25 @@ Quantitative analyst focused on empirical modeling, business operations, and ana
 
 ---
 
-### Featured Projects
+### Featured Repositories
 
 #### 1. [Spanish Urban Zoning Burden Analysis](https://github.com/magnumjpg/spanish-urban-zoning-burden-analysis)
-**Domain**: Urban Econometrics, Public Choice & Housing Supply Regulation
-- Panel econometric study ($N=780$, 15-year horizon, 50 representative Spanish municipalities) evaluating the causal impact of municipal land-use discretion on housing supply inelasticity and home price inflation.
-- Estimates a structural housing supply elasticity of $\epsilon_s = 0.31$ in restrictive regulatory regimes versus $1.32$ in elastic benchmarks, and quantifies welfare deadweight loss (Harberger DWL) at 14.8% of aggregate transaction value. Calibrated against official 2026 Bank of Spain data (750,000 structural housing unit deficit).
-- **Stack**: Python, `statsmodels`, Two-Way Fixed Effects, Monte Carlo simulation (10,000 runs), institutional visualization.
+**Focus**: Urban Econometrics, Public Choice & Housing Supply Regulation
+- An empirical panel study ($N=780$, 15-year horizon, 50 representative Spanish municipalities) investigating how discretionary municipal land-use regulation and bureaucratic permitting bottlenecks restrict housing supply and inflate home prices.
+- Estimates structural supply elasticity ($\epsilon_s = 0.31$ under discretionary regimes vs $1.32$ in elastic counterfactuals) and measures welfare deadweight loss at 14.8% of transaction value, calibrated using official 2026 Bank of Spain data (750,000 unit structural deficit).
+- **Codebase**: Python, `statsmodels`, Two-Way Fixed Effects panel regressions, 10,000-run Monte Carlo simulations, reproducible Jupyter research notebooks.
 
 #### 2. [B2B Working Capital & CCC Control Tower](https://github.com/magnumjpg/b2b-working-capital-ccc-control-tower)
-**Domain**: Corporate Finance, Treasury Analytics & Supply Chain Risk
-- Automated analytical control tower to monitor and optimize Cash Conversion Cycle (CCC), Days Sales Outstanding (DSO), and inventory buffers across operational ERP data.
-- Implements Countback (Exhaustion) DSO for unskewed liquidity tracking, Random Forest credit default risk scoring achieving 0.92 ROC-AUC, and dual-stochastic 9-cell ABC-XYZ inventory buffer sizing.
-- **Stack**: DuckDB, Python, Scikit-Learn, Star-Schema dimensional modeling, automated CI/CD pipeline verifying financial logic.
+**Focus**: Corporate Finance, Treasury Analytics & Supply Chain Risk
+- An analytical control tower tracking and optimizing Cash Conversion Cycle (CCC), Days Sales Outstanding (DSO), and inventory safety buffers across enterprise ERP transaction histories.
+- Features Exhaustion (Countback) DSO for unskewed liquidity analysis, a Random Forest credit default risk scoring model (0.92 ROC-AUC), and dual-stochastic 9-cell ABC-XYZ inventory buffer calculations.
+- **Codebase**: In-process DuckDB OLAP, Python, Scikit-Learn, Star-Schema dimensional modeling, and automated GitHub Actions CI testing for financial logic.
 
 #### 3. [B2B Revenue Operations & Margin Architecture](https://github.com/magnumjpg/b2b-revenue-operations-analytics)
-**Domain**: Strategic Pricing, Commercial Operations & EBITDA Enhancement
-- Quantitative framework diagnosing price realization and margin leakage across complex B2B commercial transaction histories.
-- Features pocket margin waterfall decomposition, Stobachoff whale curve analysis to isolate margin-eroding accounts, and CPQ governance guardrails modeled to deliver a +791 bps lift in EBITDA margin.
-- **Stack**: Python, Financial Waterfall Modeling, Pareto Analytics, Automated Reporting.
+**Focus**: Strategic Pricing, Commercial Operations & EBITDA Enhancement
+- A quantitative framework analyzing pricing realization, invoice-level discounts, and operational margin leakage across complex commercial transaction records.
+- Deconstructs pocket margin waterfalls, maps Stobachoff whale curves to isolate margin-eroding accounts, and models CPQ governance rules driving a projected +791 bps EBITDA improvement.
+- **Codebase**: Python, financial waterfall modeling, Pareto analysis, and automated executive reporting pipelines.
 
 ---
 
@@ -58,7 +57,7 @@ A custom backend pipeline designed to solve monthly compensation reconciliation 
 
 ---
 
-### Contact & Professional Links
+### Professional Links
 
 - **LinkedIn**: [linkedin.com/in/jaime-pérez-656919237/en](https://www.linkedin.com/in/jaime-p%C3%A9rez-656919237/en)
 - **GitHub**: [github.com/magnumjpg](https://github.com/magnumjpg)
