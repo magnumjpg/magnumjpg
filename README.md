@@ -6,7 +6,7 @@ Quantitative Analysis | Applied Econometrics | Business Operations & Financial M
 
 ### Executive Profile
 
-Quantitative analyst and business operations engineer specialized in empirical causal inference, financial modeling, and data pipelines. Experienced in translating complex real-world operational and regulatory friction into rigorous econometric models (Panel Data, Fixed Effects, Monte Carlo simulations) and high-throughput analytical architectures (DuckDB, Star-Schema OLAP, Python).
+Quantitative analyst and business operations builder specialized in empirical causal inference, financial operations, and analytical data architectures. Experienced in translating complex real-world operational and regulatory frictions into rigorous econometric models (Panel Data, Fixed Effects, Monte Carlo simulations) and high-throughput analytical pipelines (DuckDB, Star-Schema OLAP, Python).
 
 - **Focus Areas**: Urban Economics, Pricing & Margin Optimization, Working Capital Analytics, Risk Modeling.
 - **Methodology**: Empirical identification strategies, counterfactual policy simulation, stochastic modeling, and end-to-end reproducible research pipelines.
@@ -24,7 +24,7 @@ Quantitative analyst and business operations engineer specialized in empirical c
 
 ---
 
-### Featured Public Projects
+### Featured Quantitative & Engineering Projects
 
 #### 1. [Spanish Urban Zoning Burden Analysis](https://github.com/magnumjpg/spanish-urban-zoning-burden-analysis)
 **Domain**: Urban Econometrics, Public Choice & Housing Supply Regulation
@@ -46,14 +46,24 @@ Quantitative analyst and business operations engineer specialized in empirical c
 
 ---
 
-### Engineering & Systems Experience
+### Product Engineering & Venture Experience
 
-- **Conversational AI & Enterprise Integration**: Architected multi-channel customer communication platform integrating WhatsApp, Messenger, and Instagram with calendar synchronization and resilient webhook event queues.
-- **Sales Incentive & Compensation Computation**: Built automated calculation and tier reconciliation pipelines for complex commission structures, ensuring auditability and eliminating manual reconciliation overhead.
+#### AIchatsplug — Conversational AI Platform for SMBs
+*B2B Conversational AI SaaS & Automated Appointment Scheduling*
+- Built an end-to-end multi-channel AI platform enabling non-technical business operators to deploy customized customer service chatbots across Facebook Messenger and Instagram DMs.
+- **API Verification & Compliance**: Passed Meta's formal app review and security compliance for Messenger and Instagram Graph API integration. Implemented two-way synchronization with the Google Calendar API for automated booking and real-time schedule management.
+- **Architecture**: React/TypeScript frontend (active at [aichatsplug.com](https://aichatsplug.com)), Node.js/Express backend with resilient webhook queues, Supabase (PostgreSQL) for persistence, and Stripe billing.
+- **Operational & Go-To-Market Execution**: Executed user acquisition campaigns across Google Ads and Meta Ads, analyzing unit economics (CAC, conversion funnels) and optimizing onboarding flows under bootstrapped capital allocation.
+
+#### Sales Performance & Compensation Pipeline
+*FastAPI & Data Processing Engine*
+- Automated tier reconciliation and commission calculation pipeline designed to eliminate manual spreadsheet overhead in complex B2B incentive structures.
+- Implemented automated exception handling, dispute audit trails, and multi-variable payout scenarios.
 
 ---
 
 ### Contact & Professional Links
 
-- **Email**: jaimeperezgms@gmail.com
-- **Location**: Alcalá de Henares, Spain
+- **LinkedIn**: [linkedin.com/in/jaime-pérez-656919237/en](https://www.linkedin.com/in/jaime-p%C3%A9rez-656919237/en)
+- **GitHub**: [github.com/magnumjpg](https://github.com/magnumjpg)
+- **Location**: Madrid, Spain
