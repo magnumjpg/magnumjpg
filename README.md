@@ -17,7 +17,7 @@ Rather than claiming proprietary enterprise access, each repository is built to 
 | Domain | Methodologies & Frameworks | Tools & Technologies |
 | :--- | :--- | :--- |
 | **Econometrics & Quantitative Modeling** | Two-Way Fixed Effects (TWFE), Causal Inference, Monte Carlo Simulation, Harberger Deadweight Loss, Tullock Rent-Seeking, Supply Elasticity | Python (`statsmodels`, `linearmodels`, `scipy`), NumPy, Pandas |
-| **Corporate Finance & Operations** | Working Capital & CCC Analytics, Countback DSO, Pocket Margin Waterfalls, Stobachoff Whale Curves, CPQ Guardrails | Financial Modeling, Scenario Stress-Testing |
+| **Corporate Finance & Operations** | Three-Statement Modeling, Debt Service Coverage (DSCR / ICR), French Amortization Schedules, Working Capital & CCC Analytics, Countback DSO, Pocket Margin Waterfalls, Stobachoff Whale Curves, CPQ Guardrails | Financial Modeling, Scenario Stress-Testing, Hospitality Feasibility |
 | **Data Engineering & Analytics Architecture** | Star-Schema OLAP, In-Process Analytics, Dimensional Modeling, Automated Pipeline Verification | DuckDB, PostgreSQL, SQLite, Supabase |
 | **Machine Learning & Predictive Risk** | Supervised Classification, Credit Default Scoring, ROC-AUC Optimization, Feature Engineering | Scikit-Learn (Random Forest, Logistic Regression) |
 
@@ -43,6 +43,13 @@ Rather than claiming proprietary enterprise access, each repository is built to 
 - Deconstructs pocket margin waterfalls, maps Stobachoff whale curves to isolate margin-eroding accounts, and models CPQ governance rules driving a projected +791 bps EBITDA improvement.
 - **Codebase**: Python, financial waterfall modeling, Pareto analysis, and automated executive reporting pipelines.
 
+#### 4. [Rural Hospitality Feasibility & Credit Underwriting](https://github.com/magnumjpg/la-dehesa-financial-due-diligence)
+**Focus**: Real Estate Corporate Finance, Bank Underwriting & Operational Due Diligence
+- A quantitative financial model and credit underwriting due diligence dossier for a 25-hectare rural hospitality and agrotourism estate in Segovia, Spain.
+- Integrates a 5-year three-statement financial model (Income Statement, Cash Flow, and Balance Sheet) with strict double-entry equality ($\Delta = 0.00$ €), French mortgage amortization schedules, bank covenant compliance verification ($DSCR \ge 1.25x$, $ICR$), and multi-tier break-even occupancy calculations.
+- Grounded in empirical microdata: calibrates seasonal demand curves against the INE Rural Tourism Accommodation Survey (EOTR) for Segovia, structures labor expenses under the Provincial Hospitality Collective Bargaining Agreement (including 35% employer Social Security contributions), and models indirect tax cash flow mechanics (statutory 10% hospitality VAT vs. 21% CapEx tax asset bridge).
+- **Codebase**: Python, 1,000-iteration Monte Carlo stochastic risk simulation, two-dimensional parametric stress matrices, automated unit testing (`pytest`), and multi-tab institutional Excel model generation (`openpyxl`).
+
 ---
 
 ### Personal Projects & Side Ventures
@@ -57,8 +64,8 @@ A custom backend pipeline designed to solve monthly compensation reconciliation 
 
 ---
 
-### Professional Links
+### Contact
 
 - **LinkedIn**: [linkedin.com/in/jaime-pérez-656919237/en](https://www.linkedin.com/in/jaime-p%C3%A9rez-656919237/en)
-- **GitHub**: [github.com/magnumjpg](https://github.com/magnumjpg)
-- **Location**: Madrid, Spain
+- **e-mail**: jaimeperezgms@gmail.com
+- **Location**: Alcalá de Henares, Spain
