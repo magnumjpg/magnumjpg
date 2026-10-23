@@ -55,6 +55,5 @@ Quantitative analyst and business operations engineer specialized in empirical c
 
 ### Contact & Professional Links
 
-- **GitHub**: [github.com/magnumjpg](https://github.com/magnumjpg)
-- **Email**: [Available via CV / Contact]
-- **Location**: Madrid, Spain
+- **Email**: jaimeperezgms@gmail.com
+- **Location**: Alcalá de Henares, Spain
