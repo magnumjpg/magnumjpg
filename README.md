@@ -4,26 +4,19 @@ Quantitative Analysis | Applied Econometrics | Business Operations & Financial M
 
 ---
 
-### Portfolio Overview
-
-This repository serves as an archive of the code and analytical projects I developed using AI over the past year. These projects have been useful for practical learning, technical experimentation, and putting the finance, economics, and operations concepts from my degree into practice. The projects use public datasets (such as the Bank of Spain and INE) and realistic business simulations.
+## Portfolio Overview
+A selection of quantitative analysis, applied econometrics, and financial models built in Python and DuckDB. The goal is to move past static spreadsheets and tackle real-world financial, operational, and economic problems through reproducible code and realistic data.
 
 ---
-
-### Featured Projects
-
-#### 1. [Spanish Urban Zoning Burden Analysis](https://github.com/magnumjpg/spanish-urban-zoning-burden-analysis)
-An econometric study using data from across 50 Spanish municipalities over a 15-year period analyzing how local land-use regulations and slow building permits restrict housing supply and drive up prices. Using panel data regressions and Monte Carlo simulations in Python, the model compares strict municipalities against flexible ones and estimates the economic impact of housing shortages based on Bank of Spain data.
-
-#### 2. [B2B Working Capital & CCC Control Tower](https://github.com/magnumjpg/b2b-working-capital-ccc-control-tower)
-An analytical tool built with Python and DuckDB to track and optimize the Cash Conversion Cycle (CCC), customer collection times (DSO), and inventory safety stock across B2B transactions. It calculates real collection periods, scores client default risk using a machine learning model, and organizes inventory buffers to prevent both stockouts and excess capital lockup.
-
-#### 3. [B2B Revenue Operations & Margin Analysis](https://github.com/magnumjpg/b2b-revenue-operations-analytics)
-A practical analysis of B2B invoicing and discounting designed to spot where a company is losing margin on its sales. It breaks down pocket margin waterfalls, maps Stobachoff whale curves to identify unprofitable accounts, and simulates pricing rules that improve overall EBITDA.
-
-#### 4. [La Dehesa del Castrillo — Financial Feasibility Model](https://github.com/magnumjpg/la-dehesa-financial-due-diligence)
-A complete financial viability and debt model for a rural hospitality project in Segovia, Spain (€729k CapEx). It connects a dynamic three-statement model (P&L, Balance Sheet, and Cash Flow) with real INE tourism seasonality data and labor costs, running Monte Carlo stress tests on debt coverage and exporting the entire multi-tab financial model directly to Excel.
-
+## Featured Projects
+1. [Spanish Urban Zoning Burden Analysis](https://github.com/magnumjpg/spanish-urban-zoning-burden-analysis)
+Analyzes how discretionary municipal planning (PGOU) and licensing backlogs restrict housing supply and push up home prices across Spain. It uses a Two-Way Fixed Effects (TWFE) panel regression to isolate bureaucratic friction from broader macroeconomic trends, and models a counterfactual By-Right regime to evaluate the resulting deadweight loss and rent-seeking costs.
+2. [B2B Working Capital & CCC Control Tower](https://github.com/magnumjpg/b2b-working-capital-ccc-control-tower)
+A code-based liquidity engine built on an in-process DuckDB Star-Schema to replace static BI dashboards and diagnose working capital traps. It applies the Countback (Exhaustion) DSO method to measure true collection cycles without seasonal distortions, uses a Random Forest model to flag customer default risk before issuing credit, and optimizes safety stock by modeling both demand and lead-time volatility against corporate WACC.
+3. [B2B Revenue Operations & Margin Analysis](https://github.com/magnumjpg/b2b-revenue-operations-analytics)
+Traces where B2B and wholesale companies silently lose margin between catalog list prices and realized pocket cash. Using Pocket Margin Waterfalls and Stobachoff Whale Curves, the project isolates unprofitable customer accounts and deploys a dual-tier pricing architecture with real-time guardrails to prevent uncoordinated sales discounting on small orders.
+4. [La Dehesa del Castrillo — Financial Feasibility Model](https://github.com/magnumjpg/la-dehesa-financial-due-diligence)
+A financial feasibility and bank debt underwriting model for a rural hospitality acquisition. It resolves a common tax structuring error in banking models by reconciling reduced hospitality VAT against CapEx input tax credits, calibrates operations using official INE microdata and provincial collective bargaining wages, and stress-tests debt service coverage (DSCR) using Monte Carlo and copula simulations in a dynamic 3-statement model.
 ---
 
 ### Personal Projects & Side Ventures
