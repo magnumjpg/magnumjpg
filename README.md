@@ -13,7 +13,7 @@ This repository serves as an archive of the code and analytical projects I devel
 ### Featured Projects
 
 #### 1. [Spanish Urban Zoning Burden Analysis](https://github.com/magnumjpg/spanish-urban-zoning-burden-analysis)
-An econometric study across 50 Spanish municipalities over a 15-year period analyzing how local land-use regulations and slow building permits restrict housing supply and drive up prices. Using panel data regressions and Monte Carlo simulations in Python, the model compares strict municipalities against flexible ones and estimates the economic impact of housing shortages based on Bank of Spain data.
+An econometric study using data from across 50 Spanish municipalities over a 15-year period analyzing how local land-use regulations and slow building permits restrict housing supply and drive up prices. Using panel data regressions and Monte Carlo simulations in Python, the model compares strict municipalities against flexible ones and estimates the economic impact of housing shortages based on Bank of Spain data.
 
 #### 2. [B2B Working Capital & CCC Control Tower](https://github.com/magnumjpg/b2b-working-capital-ccc-control-tower)
 An analytical tool built with Python and DuckDB to track and optimize the Cash Conversion Cycle (CCC), customer collection times (DSO), and inventory safety stock across B2B transactions. It calculates real collection periods, scores client default risk using a machine learning model, and organizes inventory buffers to prevent both stockouts and excess capital lockup.
