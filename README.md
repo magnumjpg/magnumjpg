@@ -10,37 +10,20 @@ This repository serves as an archive of the code and analytical projects I devel
 
 ---
 
-### Core Stack & Focus Areas
-
-| Area | What I Work On | Tools |
-| :--- | :--- | :--- |
-| **Econometrics & Data Analysis** | Panel data regressions (Fixed Effects), supply elasticity, Monte Carlo simulations | Python (`statsmodels`, `scipy`), Pandas, NumPy |
-| **Finance & Operations** | 3-statement financial modeling, Working Capital (CCC/DSO), B2B pricing & margin analysis | Advanced Excel, VBA, OpenPyXL |
-| **Data & Automation** | Local analytical databases, data cleaning pipelines, API integrations, predictive scoring | DuckDB, SQLite, Supabase, Scikit-Learn |
-
----
-
 ### Featured Projects
 
 #### 1. [Spanish Urban Zoning Burden Analysis](https://github.com/magnumjpg/spanish-urban-zoning-burden-analysis)
-An econometric study ($N=780$, 50 Spanish municipalities over 15 years) analyzing how local land-use regulations and slow building permits restrict housing supply and drive up prices.
-- Estimates housing supply elasticity ($\epsilon_s = 0.31$ in strict municipalities vs. $1.32$ in flexible ones) and models the economic loss using Bank of Spain housing deficit data.
-- **Tech**: Python, `statsmodels` (Two-Way Fixed Effects), Monte Carlo simulation, Jupyter Notebooks.
+An econometric study across 50 Spanish municipalities over a 15-year period analyzing how local land-use regulations and slow building permits restrict housing supply and drive up prices. Using panel data regressions and Monte Carlo simulations in Python, the model compares strict municipalities against flexible ones and estimates the economic impact of housing shortages based on Bank of Spain data.
 
 #### 2. [B2B Working Capital & CCC Control Tower](https://github.com/magnumjpg/b2b-working-capital-ccc-control-tower)
-A tool designed to track and optimize Cash Conversion Cycle (CCC), Days Sales Outstanding (DSO), and inventory safety stock across B2B transaction records.
-- Calculates real collection times (Countback DSO), scores client default risk using a Random Forest model (0.92 ROC-AUC), and segments inventory buffers (ABC-XYZ).
-- **Tech**: Python, DuckDB, Scikit-Learn, automated testing with GitHub Actions.
+An analytical tool built with Python and DuckDB to track and optimize the Cash Conversion Cycle (CCC), customer collection times (DSO), and inventory safety stock across B2B transactions. It calculates real collection periods, scores client default risk using a machine learning model, and organizes inventory buffers to prevent both stockouts and excess capital lockup.
 
 #### 3. [B2B Revenue Operations & Margin Analysis](https://github.com/magnumjpg/b2b-revenue-operations-analytics)
-An analysis of B2B invoicing and discounts to find where a company is losing margin on its sales.
-- Deconstructs pocket margin waterfalls, maps Stobachoff whale curves to isolate margin-eroding accounts, and models CPQ governance rules driving a projected +791 bps EBITDA improvement.
-- **Tech**: Python, Pareto & margin waterfall modeling, automated reporting.
+A practical analysis of B2B invoicing and discounting designed to spot where a company is losing margin on its sales. It breaks down pocket margin waterfalls, maps Stobachoff whale curves to identify unprofitable accounts, and simulates pricing rules that improve overall EBITDA.
 
 #### 4. [La Dehesa del Castrillo — Financial Feasibility Model](https://github.com/magnumjpg/la-dehesa-financial-due-diligence)
-A complete financial viability and debt model for a rural hospitality project in Segovia, Spain (€729k CapEx, 70/30 debt-to-equity).
-- Connects a dynamic 3-statement model (P&L, Balance Sheet, Cash Flow) with real INE tourism seasonality data, Spanish labor costs, and Monte Carlo stress tests on debt coverage (DSCR).
-- **Tech**: Python, `pytest`, and an automated exporter that builds the multi-tab Excel financial model.
+A complete financial viability and debt model for a rural hospitality project in Segovia, Spain (€729k CapEx). It connects a dynamic three-statement model (P&L, Balance Sheet, and Cash Flow) with real INE tourism seasonality data and labor costs, running Monte Carlo stress tests on debt coverage and exporting the entire multi-tab financial model directly to Excel.
+
 ---
 
 ### Personal Projects & Side Ventures
