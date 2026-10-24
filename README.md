@@ -6,58 +6,48 @@ Quantitative Analysis | Applied Econometrics | Business Operations & Financial M
 
 ### Portfolio Overview
 
-This workspace serves as my personal lab for hands-on learning, technical experimentation, and putting quantitative and operational concepts into practice. The projects hosted here explore empirical research and corporate decision modeling using open-source datasets, official public statistics (such as the Bank of Spain and INE), and calibrated simulation frameworks.
-
-Each repository is built to demonstrate methodological rigor, clean data architecture, and practical business criteria: from panel econometric causal inference to in-process OLAP data towers, real estate feasibility, and financial stress-testing.
+This repository is an archive of the code and analytical projects I have built with AI over the past year. I use it for hands-on learning, technical experimentation, and putting finance, economics, and operations concepts from my degree into practice using public data (such as the Bank of Spain and INE) and realistic business simulations..
 
 ---
 
-### Core Competencies & Frameworks
+### Core Stack & Focus Areas
 
-| Domain | Methodologies & Frameworks | Tools & Technologies |
+| Area | What I Work On | Tools |
 | :--- | :--- | :--- |
-| **Econometrics & Quantitative Modeling** | Two-Way Fixed Effects (TWFE), Causal Inference, Monte Carlo Simulation, Harberger Deadweight Loss, Tullock Rent-Seeking, Supply Elasticity | Python (`statsmodels`, `linearmodels`, `scipy`), NumPy, Pandas |
-| **Corporate Finance & Financial Modeling** | Three-Statement Modeling, Debt Service Coverage (DSCR), Working Capital & CCC Analytics, Countback DSO, Pocket Margin Waterfalls, Stobachoff Whale Curves | Financial Modeling, Scenario Stress-Testing, OpenPyXL |
-| **Data Engineering & Analytics Architecture** | Star-Schema OLAP, In-Process Analytics, Dimensional Modeling, Automated Pipeline Verification | DuckDB, PostgreSQL, SQLite, Supabase |
-| **Machine Learning & Predictive Risk** | Supervised Classification, Credit Default Scoring, ROC-AUC Optimization, Feature Engineering | Scikit-Learn (Random Forest, Logistic Regression) |
+| **Econometrics & Data Analysis** | Panel data regressions (Fixed Effects), supply elasticity, Monte Carlo simulations | Python (`statsmodels`, `scipy`), Pandas, NumPy |
+| **Finance & Operations** | 3-statement financial modeling, Working Capital (CCC/DSO), B2B pricing & margin analysis | Advanced Excel, VBA, OpenPyXL |
+| **Data & Automation** | Local analytical databases, data cleaning pipelines, API integrations, predictive scoring | DuckDB, SQLite, Supabase, Scikit-Learn |
 
 ---
 
 ### Featured Projects
 
 #### 1. [Spanish Urban Zoning Burden Analysis](https://github.com/magnumjpg/spanish-urban-zoning-burden-analysis)
-**Focus**: Urban Econometrics, Public Choice & Housing Supply Regulation
-- An empirical panel study ($N=780$, 15-year horizon, 50 representative Spanish municipalities) investigating how discretionary municipal land-use regulation and bureaucratic permitting bottlenecks restrict housing supply and inflate home prices.
-- Estimates structural supply elasticity ($\epsilon_s = 0.31$ under discretionary regimes vs $1.32$ in elastic counterfactuals) and measures welfare deadweight loss at 14.8% of transaction value, calibrated using official 2026 Bank of Spain data (750,000 unit structural deficit).
-- **Codebase**: Python, `statsmodels`, Two-Way Fixed Effects panel regressions, 10,000-run Monte Carlo simulations, reproducible Jupyter research notebooks.
+An econometric study ($N=780$, 50 Spanish municipalities over 15 years) analyzing how local land-use regulations and slow building permits restrict housing supply and drive up prices.
+- Estimates housing supply elasticity ($\epsilon_s = 0.31$ in strict municipalities vs. $1.32$ in flexible ones) and models the economic loss using Bank of Spain housing deficit data.
+- **Tech**: Python, `statsmodels` (Two-Way Fixed Effects), Monte Carlo simulation, Jupyter Notebooks.
 
 #### 2. [B2B Working Capital & CCC Control Tower](https://github.com/magnumjpg/b2b-working-capital-ccc-control-tower)
-**Focus**: Corporate Finance, Treasury Analytics & Supply Chain Risk
-- An analytical control tower tracking and optimizing Cash Conversion Cycle (CCC), Days Sales Outstanding (DSO), and inventory safety buffers across synthetic ERP transaction records.
-- Features Exhaustion (Countback) DSO for unskewed liquidity analysis, a Random Forest credit default risk scoring model (0.92 ROC-AUC), and dual-stochastic 9-cell ABC-XYZ inventory buffer calculations.
-- **Codebase**: In-process DuckDB OLAP, Python, Scikit-Learn, Star-Schema dimensional modeling, and automated GitHub Actions CI testing for financial logic.
+A tool designed to track and optimize Cash Conversion Cycle (CCC), Days Sales Outstanding (DSO), and inventory safety stock across B2B transaction records.
+- Calculates real collection times (Countback DSO), scores client default risk using a Random Forest model (0.92 ROC-AUC), and segments inventory buffers (ABC-XYZ).
+- **Tech**: Python, DuckDB, Scikit-Learn, automated testing with GitHub Actions.
 
-#### 3. [B2B Revenue Operations & Margin Architecture](https://github.com/magnumjpg/b2b-revenue-operations-analytics)
-**Focus**: Strategic Pricing, Commercial Operations & EBITDA Enhancement
-- A quantitative framework analyzing pricing realization, invoice-level discounts, and operational margin leakage across simulated B2B commercial transaction data.
+#### 3. [B2B Revenue Operations & Margin Analysis](https://github.com/magnumjpg/b2b-revenue-operations-analytics)
+An analysis of B2B invoicing and discounts to find where a company is losing margin on its sales.
 - Deconstructs pocket margin waterfalls, maps Stobachoff whale curves to isolate margin-eroding accounts, and models CPQ governance rules driving a projected +791 bps EBITDA improvement.
-- **Codebase**: Python, financial waterfall modeling, Pareto analysis, and automated executive reporting pipelines.
+- **Tech**: Python, Pareto & margin waterfall modeling, automated reporting.
 
-#### 4. [La Dehesa del Castrillo — Feasibility & Debt Underwriting](https://github.com/magnumjpg/la-dehesa-financial-due-diligence)
-**Focus**: Real Estate Private Equity, Hospitality Due Diligence & Corporate Credit Underwriting
-- Quantitative feasibility, operational due diligence, and senior debt underwriting model for a 25-hectare rural hospitality asset in Segovia, Spain (€729,000 CapEx, 70/30 senior debt/equity structure).
-- Features dynamic three-statement modeling (P&L, Balance Sheet, Free Cash Flow), empirical INE tourism seasonality calibration, collective agreement labor costing, and 10,000-iteration Monte Carlo stress-testing on debt service coverage (DSCR). Generates institutional multi-tab financial models.
-- **Codebase**: Python modular engine (`/src`), automated Pytest test suite (16 tests passed), institutional visualization artifacts, and automated Excel financial model exporter.
-
+#### 4. [La Dehesa del Castrillo — Financial Feasibility Model](https://github.com/magnumjpg/la-dehesa-financial-due-diligence)
+A complete financial viability and debt model for a rural hospitality project in Segovia, Spain (€729k CapEx, 70/30 debt-to-equity).
+- Connects a dynamic 3-statement model (P&L, Balance Sheet, Cash Flow) with real INE tourism seasonality data, Spanish labor costs, and Monte Carlo stress tests on debt coverage (DSCR).
+- **Tech**: Python, `pytest`, and an automated exporter that builds the multi-tab Excel financial model.
 ---
 
 ### Personal Projects & Side Ventures
 
 #### AIchatsplug (Conversational AI Platform for SMBs)
-I built AIchatsplug as a self-service tool enabling non-technical business operators to configure and deploy customer support chatbots directly onto their Facebook Messenger and Instagram Direct channels. The core workflow included deep two-way integration with the Google Calendar API to automatically check real-time availability and book appointments without human intervention.
-
-Getting the product to live production required passing rigorous third-party app verification audits: Meta's formal App Review for sensitive Messenger and Instagram Graph API scopes (submitting video walkthroughs, test accounts, and privacy policy compliance) as well as Google's OAuth verification for calendar read/write access. The web interface remains live at [aichatsplug.com](https://aichatsplug.com). After validating product functionality and running initial paid acquisition campaigns on Google Ads and Meta Ads, but I had to ultimatly pause paid advertising because of a lack of capital.
-
+I built AIchatsplug as a self-service tool enabling non-technical businesses to set up customer support AI chatbots on Facebook Messenger, Instagram Direct, and their own websites and also they could connect their chatbot to Google Calendar to manage appointments automatically.
+Taking the product to production required passing official security and compliance reviews from both Meta (App Review for Messenger/Instagram Graph APIs) and Google (OAuth2.0 and API Calendar access). After validating product functionality and running initial paid acquisition campaigns on Google Ads and Meta Ads, I ultimately had to pause paid advertising due to a lack of capital.
 #### Automated Sales Commission & Tier Calculation Engine
 A custom backend pipeline designed to solve monthly compensation reconciliation across complex sales structures featuring multi-tiered target thresholds, accelerators, and operational exceptions. The project replaced error-prone manual spreadsheets with an auditable backend engine (FastAPI / Pandas) that processes structured sales exports, generates dispute trails, and computes net payout breakdowns with total transparency.
 
