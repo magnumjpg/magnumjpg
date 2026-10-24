@@ -46,8 +46,9 @@ A complete financial viability and debt model for a rural hospitality project in
 ### Personal Projects & Side Ventures
 
 #### AIchatsplug (Conversational AI Platform for SMBs)
-I built AIchatsplug as a self-service tool enabling non-technical businesses to set up customer support AI chatbots on Facebook Messenger, Instagram Direct, and their own websites and also they could connect their chatbot to Google Calendar to manage appointments automatically.
+A Saas platform that enables non-technical businesses to set up their own customer support AI chatbots on Facebook Messenger, Instagram Direct, and their own websites and also they could connect their chatbot to Google Calendar to manage appointments automatically.
 Taking the product to production required passing official security and compliance reviews from both Meta (App Review for Messenger/Instagram Graph APIs) and Google (OAuth2.0 and API Calendar access). After validating product functionality and running initial paid acquisition campaigns on Google Ads and Meta Ads, I ultimately had to pause paid advertising due to a lack of capital.
+
 #### Automated Sales Commission & Tier Calculation Engine
 A custom backend pipeline designed to solve monthly compensation reconciliation across complex sales structures featuring multi-tiered target thresholds, accelerators, and operational exceptions. The project replaced error-prone manual spreadsheets with an auditable backend engine (FastAPI / Pandas) that processes structured sales exports, generates dispute trails, and computes net payout breakdowns with total transparency.
 
