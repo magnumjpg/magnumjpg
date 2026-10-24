@@ -6,7 +6,7 @@ Quantitative Analysis | Applied Econometrics | Business Operations & Financial M
 
 ### Portfolio Overview
 
-This repository is an archive of the code and analytical projects I have built with AI over the past year. I use it for hands-on learning, technical experimentation, and putting finance, economics, and operations concepts from my degree into practice using public data (such as the Bank of Spain and INE) and realistic business simulations..
+This repository serves as an archive of the code and analytical projects I developed using AI over the past year. These projects have been useful for practical learning, technical experimentation, and putting the finance, economics, and operations concepts from my degree into practice. The projects use public datasets (such as the Bank of Spain and INE) and realistic business simulations.
 
 ---
 
