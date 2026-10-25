@@ -50,9 +50,9 @@ The rule I work to: state the question before looking, report the result whether
 
 **Question.** Is a 25-hectare rural estate in Segovia a fundable investment at official occupancy, at the promoter's numbers, or under professional management?
 
-**What it is.** A three-statement model of three as-is cases (promoter, INE market, management), a full cost stack, sources and uses, a 20-year amortising facility, a live-formula Excel workbook, a computed 16-rule audit and 73 tests.
+**What it is.** A three-statement model of three as-is cases (promoter, INE market, management), a full cost stack, sources and uses, a 20-year amortising facility, a live-formula Excel workbook, a computed 16-rule audit and 74 tests.
 
-**Finding.** Management revenue €154,548 and EBITDA €24,280, but minimum DSCR **1.15x** against a 1.25x covenant; the market case is insolvent at official INE occupancy; the promoter case is the only one with a positive equity IRR on exit (12.12%) and is cash-negative in Years 1–2. CapEx is €1,050,100 with **49.6% cash equity**. The audit passes 10 rules, fails 5 materially and 1 as a warning — all five material failures are deal findings, not formula errors.
+**Finding.** Management revenue €154,548 and EBITDA €24,280, but minimum DSCR **1.15x** against a 1.25x covenant; the market case is insolvent at official INE occupancy; the promoter case is the only one with a positive equity IRR on exit (12.12%) and is cash-negative in Years 1–2. CapEx is €1,050,100 with **49.6% cash equity**. The audit passes 9 rules, reports 1 as not applicable, and fails 5 materially and 1 as a warning - all five material failures are deal findings, not formula errors.
 
 **Caveat.** The promoter case is a **re-modelling calibrated to the presentation headline (€86,275 / €11,297), not a replication**: the two source workbooks contain four mutually inconsistent Year-1 revenues and two EBITDAs, and the README reconciles them. The report is a diligence artefact on a real project, not an investment recommendation.
 
@@ -77,7 +77,7 @@ The rule I work to: state the question before looking, report the result whether
 | Spain housing supply | Official (MIVAU, INE, SERPAVI, OECD, Eurostat) | 41 | `outputs/results.json`, 14 tables, 10 figures |
 | SEC cash conversion | Official SEC XBRL filings | 30 | `outputs/results.json`, `validation.json`, 17 tables |
 | Retail demand forecasting | Public UCI Online Retail II | 24 | `outputs/results.json`, 8 tables, 7 figures |
-| La Dehesa due diligence | Promoter workbooks + INE + convenio | 73 | 13-tab live Excel, audit JSON, 8 figures |
+| La Dehesa due diligence | Promoter workbooks + INE + convenio | 74 | 13-tab live Excel, audit JSON, 8 figures |
 | Inventory control tower | Synthetic catalogue (seed 42) | 65 | 6-tab live Excel, briefing, processed CSV/JSON |
 
 The three new analyses also carry the same process documents: `DECISIONS.md` (each choice, the alternatives rejected, the cost), `ANALYSIS_LOG.md` (what broke and when it was reframed), `RED_TEAM.md` (the hostile referee, answered or conceded) and `LIMITATIONS.md` (what the design cannot establish). La Dehesa adds a `RED_TEAM.md` and a `MODEL_GOVERNANCE.md` pack. All five run their test suite in GitHub Actions on every push to `main`.
@@ -94,7 +94,7 @@ No project is a flagship. They are five different methods applied to five differ
 
 **03 — Previsión de demanda dispersa.** 104 semanas de un minorista online británico, 3.186 SKU y tres orígenes móviles. Pedir el cuantil 0,90 reduce el coste un **23,82%** frente a la mejor regla puntual simple en el caso central, y la mejora es positiva en las 12 celdas de duración × ratio de coste (2,43–48,81%), pero el modelo se elige ex post y con ratio de coste 1 la política por cuantiles pierde.
 
-**04 — La Dehesa del Castrillo.** Modelo de tres estados para tres casos as-is. La gestión llega a 1,15x de DSCR mínimo frente a un covenant de 1,25x; el caso de mercado es insolvente con la ocupación oficial del INE; el promotor es el único con TIR de equity positiva en la salida (12,12%) y tiene caja negativa en los Años 1–2. La auditoría de 16 reglas pasa 10, falla 5 materialmente y 1 como aviso. El caso promotor está **re-modelado** sobre el titular de la presentación (86.275 € / 11.297 €), no replicado: los libros fuente contienen cuatro ingresos del Año 1 incompatibles entre sí.
+**04 — La Dehesa del Castrillo.** Modelo de tres estados para tres casos as-is. La gestión llega a 1,15x de DSCR mínimo frente a un covenant de 1,25x; el caso de mercado es insolvente con la ocupación oficial del INE; el promotor es el único con TIR de equity positiva en la salida (12,12%) y tiene caja negativa en los Años 1–2. La auditoría de 16 reglas pasa 9, declara 1 no aplicable y falla 5 materialmente y 1 como aviso. El caso promotor está **re-modelado** sobre el titular de la presentación (86.275 € / 11.297 €), no replicado: los libros fuente contienen cuatro ingresos del Año 1 incompatibles entre sí.
 
 **05 — Torre de control de inventario.** Motor determinista de S&OP para una marca **sintética** de 160 SKU (semilla 42, 365 días): demanda des-censurada, reparto FBA/3PL con escudo de tarifas, PO de fábrica y contenedor 20′ conciliados, y payback de retirada frente al acantilado de inventario envejecido. En el snapshot actual: 11.450 u / 147 cartones al FBA, 38.750 u / 461 cartones de fábrica, contenedor al 99,9% y 3.442 $ de exposición a tarifas a 30 días. Todo el catálogo es sintético y así se declara.
 
