@@ -40,9 +40,9 @@ The rule I work to: state the question before looking, report the result whether
 
 **Data.** 104 weeks of UK online-retail transactions, 972,068 cleaned line items, **3,186 SKUs**, three rolling origins, seven point models plus a shared conformal layer.
 
-**Finding.** At the central newsvendor case (4-week lead time, cost ratio 9), ordering the 90th percentile of SES cuts total cost by **23.82%** versus the best simple point rule (95% bootstrap CI 21.20–26.18%; one-sided *p* < 0.0001) and by 18.62% versus the cheapest point rule in that cell. The saving is positive in **12 of 12** lead-time × cost-ratio cells, range 2.43–48.81%.
+**Finding.** At the central newsvendor case (4-week lead time, cost ratio 9), ordering the 90th percentile of SES cuts total cost by **23.82%** versus the best simple point rule (95% bootstrap CI 21.20–26.18%; one-sided *p* < 0.0001) and by 18.62% versus the cheapest point rule in that cell. For SES the saving is positive in **12 of 12** lead-time × cost-ratio cells (1.67–48.81%), and the best quantile model per cell ranges from 2.43% to 48.81%.
 
-**Caveat.** The 23.82% is an **ex-post** model choice inside the central cell and the CI is conditional on it; at cost ratio 1 the quantile policy **loses** at every lead time; there is no stockout data and costs are assumptions. 24 tests, 7 figures.
+**Caveat.** The 23.82% is an **ex-post** model choice inside the central cell and the CI is conditional on it; at cost ratio 1 the quantile policy **loses to the cheapest point rule** at every lead time; there is no stockout data and costs are assumptions. 24 tests, 7 figures.
 
 ---
 
@@ -92,7 +92,7 @@ No project is a flagship. They are five different methods applied to five differ
 
 **02 — Circulante y resistencia.** Panel de 25.341 empresas-año (3.158 empresas, 2010–2024) desde los ficheros XBRL de la SEC. El ciclo de conversión de caja mediano es de **74,97 días**, sobre todo un rasgo de empresa (64,2% de la varianza), persistente pero con un rango de **0,27–0,69** según el estimador. Su asociación con la rentabilidad es **positiva**, al contrario de la historia habitual, y el nivel es sensible al tag de cuentas a pagar.
 
-**03 — Previsión de demanda dispersa.** 104 semanas de un minorista online británico, 3.186 SKU y tres orígenes móviles. Pedir el cuantil 0,90 reduce el coste un **23,82%** frente a la mejor regla puntual simple en el caso central, y la mejora es positiva en las 12 celdas de duración × ratio de coste (2,43–48,81%), pero el modelo se elige ex post y con ratio de coste 1 la política por cuantiles pierde.
+**03 — Previsión de demanda dispersa.** 104 semanas de un minorista online británico, 3.186 SKU y tres orígenes móviles. Pedir el cuantil 0,90 reduce el coste un **23,82%** frente a la mejor regla puntual simple en el caso central, y para SES la mejora es positiva en las 12 celdas de duración × ratio de coste (1,67–48,81%), con el mejor modelo por celda entre el 2,43% y el 48,81%, pero el modelo se elige ex post y con ratio de coste 1 la política por cuantiles pierde frente a la regla puntual más barata.
 
 **04 — La Dehesa del Castrillo.** Modelo de tres estados para tres casos as-is. La gestión llega a 1,15x de DSCR mínimo frente a un covenant de 1,25x; el caso de mercado es insolvente con la ocupación oficial del INE; el promotor es el único con TIR de equity positiva en la salida (12,12%) y tiene caja negativa en los Años 1–2. La auditoría de 16 reglas pasa 9, declara 1 no aplicable y falla 5 materialmente y 1 como aviso. El caso promotor está **re-modelado** sobre el titular de la presentación (86.275 € / 11.297 €), no replicado: los libros fuente contienen cuatro ingresos del Año 1 incompatibles entre sí.
 
