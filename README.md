@@ -2,7 +2,7 @@
 
 Quantitative analysis · applied econometrics · operations and financial modelling
 
-I build small, reproducible models that answer one question each, using public data or a clearly labelled synthetic catalogue. Every project ships its own tests, figures and process log, and every headline number is a field of that project's `outputs/results.json` or equivalent artefact — not a figure typed into the README by hand.
+I build small, reproducible models that answer one question each, using public data or a clearly labelled synthetic catalogue. Every project ships its own tests, figures and a written decision record, and every headline number is a field of that project's `outputs/results.json` or equivalent artefact — not a figure typed into the README by hand.
 
 The rule I work to: state the question before looking, report the result whether or not it is the one I wanted, and keep the failures in the write-up.
 
