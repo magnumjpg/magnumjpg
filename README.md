@@ -1,6 +1,6 @@
 # Jaime Pérez Gómez
 
-Quantitative analysis · applied econometrics · business operations and financial modelling
+Financial Analysis & Modeling | Applied Econometrics | Operations & Automation
 
 ---
 
