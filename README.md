@@ -8,7 +8,7 @@ Financial Analysis & Modeling | Applied Econometrics | Operations & Automation
 
 ## Portfolio overview
 
-A set of focused, reproducible models built in Python. Each one answers a single question with public data or with a synthetic dataset that is clearly labeled as such. The goal is not to produce another dashboard: it is to download and validate the inputs, estimate something that can be re-run, and leave a written record of what was tried, what failed and why. Each public repository includes its own tests, figures and a decision or governance record.
+A set of small, reproducible models built in Python. Each one answers a single question with public data or with a synthetic dataset that is clearly labeled as such. The point is to download and validate the inputs, estimate something that can be re-run, and leave a written record of what was tried, what failed and why. Each project includes tests where the data allows it, a short write-up, and the figures or workbook behind the numbers.
 
 ---
 
